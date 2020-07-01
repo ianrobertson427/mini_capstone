@@ -1,3 +1,5 @@
+@products.map do |product|
+
 {
   message: "That's a lot of drums!"
 }
