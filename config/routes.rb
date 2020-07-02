@@ -6,5 +6,6 @@ Rails.application.routes.draw do
    namespace :api do
      get "/drums" => "products#index"
      get "/sales" => "products#sales"
+     get "/objects" => "products#objects"
    end
 end
