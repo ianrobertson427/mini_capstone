@@ -7,5 +7,7 @@ Rails.application.routes.draw do
      get "/drums" => "products#index"
      get "/sales" => "products#sales"
      get "/objects" => "products#objects"
+     get "/new_drums" => "products#sonor_example"
+     get "/kristofermydood/:product" => "products#sonor_example"
    end
 end
