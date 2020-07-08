@@ -42,3 +42,4 @@ gem 'http'
 gem 'rack-cors'
 gem 'jb'
 gem "http"
+gem 'seed_dump'
