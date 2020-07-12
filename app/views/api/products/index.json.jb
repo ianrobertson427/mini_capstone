@@ -1,4 +1,4 @@
-@recipes.map do |recipe|
+@products.map do |product|
   {
     id: product.id,
     name: product.name,
